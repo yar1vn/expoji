@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091E194F1EF477EF00377DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E194E1EF477EF00377DD2 /* AppDelegate.swift */; };
+		091E19511EF477EF00377DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E19501EF477EF00377DD2 /* ViewController.swift */; };
+		091E19541EF477EF00377DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091E19521EF477EF00377DD2 /* Main.storyboard */; };
+		091E19561EF477EF00377DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091E19551EF477EF00377DD2 /* Assets.xcassets */; };
+		091E19591EF477EF00377DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091E19571EF477EF00377DD2 /* LaunchScreen.storyboard */; };
+		091E19641EF477EF00377DD2 /* ExpojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E19631EF477EF00377DD2 /* ExpojiTests.swift */; };
+		091E196F1EF477EF00377DD2 /* ExpojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E196E1EF477EF00377DD2 /* ExpojiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		091E19601EF477EF00377DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091E19431EF477EF00377DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091E194A1EF477EF00377DD2;
+			remoteInfo = Expoji;
+		};
+		091E196B1EF477EF00377DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091E19431EF477EF00377DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091E194A1EF477EF00377DD2;
+			remoteInfo = Expoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091E194B1EF477EF00377DD2 /* Expoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E194E1EF477EF00377DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		091E19501EF477EF00377DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		091E19531EF477EF00377DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091E19551EF477EF00377DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091E19581EF477EF00377DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091E195A1EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E19631EF477EF00377DD2 /* ExpojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpojiTests.swift; sourceTree = "<group>"; };
+		091E19651EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E196E1EF477EF00377DD2 /* ExpojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpojiUITests.swift; sourceTree = "<group>"; };
+		091E19701EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091E19481EF477EF00377DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E195C1EF477EF00377DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E19671EF477EF00377DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091E19421EF477EF00377DD2 = {
+			isa = PBXGroup;
+			children = (
+				091E194D1EF477EF00377DD2 /* Expoji */,
+				091E19621EF477EF00377DD2 /* ExpojiTests */,
+				091E196D1EF477EF00377DD2 /* ExpojiUITests */,
+				091E194C1EF477EF00377DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091E194C1EF477EF00377DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091E194B1EF477EF00377DD2 /* Expoji.app */,
+				091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */,
+				091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091E194D1EF477EF00377DD2 /* Expoji */ = {
+			isa = PBXGroup;
+			children = (
+				091E194E1EF477EF00377DD2 /* AppDelegate.swift */,
+				091E19501EF477EF00377DD2 /* ViewController.swift */,
+				091E19521EF477EF00377DD2 /* Main.storyboard */,
+				091E19551EF477EF00377DD2 /* Assets.xcassets */,
+				091E19571EF477EF00377DD2 /* LaunchScreen.storyboard */,
+				091E195A1EF477EF00377DD2 /* Info.plist */,
+			);
+			path = Expoji;
+			sourceTree = "<group>";
+		};
+		091E19621EF477EF00377DD2 /* ExpojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				091E19631EF477EF00377DD2 /* ExpojiTests.swift */,
+				091E19651EF477EF00377DD2 /* Info.plist */,
+			);
+			path = ExpojiTests;
+			sourceTree = "<group>";
+		};
+		091E196D1EF477EF00377DD2 /* ExpojiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				091E196E1EF477EF00377DD2 /* ExpojiUITests.swift */,
+				091E19701EF477EF00377DD2 /* Info.plist */,
+			);
+			path = ExpojiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091E194A1EF477EF00377DD2 /* Expoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Expoji" */;
+			buildPhases = (
+				091E19471EF477EF00377DD2 /* Sources */,
+				091E19481EF477EF00377DD2 /* Frameworks */,
+				091E19491EF477EF00377DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Expoji;
+			productName = Expoji;
+			productReference = 091E194B1EF477EF00377DD2 /* Expoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		091E195E1EF477EF00377DD2 /* ExpojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiTests" */;
+			buildPhases = (
+				091E195B1EF477EF00377DD2 /* Sources */,
+				091E195C1EF477EF00377DD2 /* Frameworks */,
+				091E195D1EF477EF00377DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091E19611EF477EF00377DD2 /* PBXTargetDependency */,
+			);
+			name = ExpojiTests;
+			productName = ExpojiTests;
+			productReference = 091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		091E19691EF477EF00377DD2 /* ExpojiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiUITests" */;
+			buildPhases = (
+				091E19661EF477EF00377DD2 /* Sources */,
+				091E19671EF477EF00377DD2 /* Frameworks */,
+				091E19681EF477EF00377DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091E196C1EF477EF00377DD2 /* PBXTargetDependency */,
+			);
+			name = ExpojiUITests;
+			productName = ExpojiUITests;
+			productReference = 091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091E19431EF477EF00377DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yariv;
+				TargetAttributes = {
+					091E194A1EF477EF00377DD2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DFJ42DHHW7;
+						ProvisioningStyle = Automatic;
+					};
+					091E195E1EF477EF00377DD2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DFJ42DHHW7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 091E194A1EF477EF00377DD2;
+					};
+					091E19691EF477EF00377DD2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DFJ42DHHW7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 091E194A1EF477EF00377DD2;
+					};
+				};
+			};
+			buildConfigurationList = 091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Expoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091E19421EF477EF00377DD2;
+			productRefGroup = 091E194C1EF477EF00377DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091E194A1EF477EF00377DD2 /* Expoji */,
+				091E195E1EF477EF00377DD2 /* ExpojiTests */,
+				091E19691EF477EF00377DD2 /* ExpojiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091E19491EF477EF00377DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091E19591EF477EF00377DD2 /* LaunchScreen.storyboard in Resources */,
+				091E19561EF477EF00377DD2 /* Assets.xcassets in Resources */,
+				091E19541EF477EF00377DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E195D1EF477EF00377DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E19681EF477EF00377DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091E19471EF477EF00377DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091E19511EF477EF00377DD2 /* ViewController.swift in Sources */,
+				091E194F1EF477EF00377DD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E195B1EF477EF00377DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091E19641EF477EF00377DD2 /* ExpojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091E19661EF477EF00377DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091E196F1EF477EF00377DD2 /* ExpojiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091E19611EF477EF00377DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091E194A1EF477EF00377DD2 /* Expoji */;
+			targetProxy = 091E19601EF477EF00377DD2 /* PBXContainerItemProxy */;
+		};
+		091E196C1EF477EF00377DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091E194A1EF477EF00377DD2 /* Expoji */;
+			targetProxy = 091E196B1EF477EF00377DD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		091E19521EF477EF00377DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091E19531EF477EF00377DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091E19571EF477EF00377DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091E19581EF477EF00377DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091E19711EF477EF00377DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		091E19721EF477EF00377DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091E19741EF477EF00377DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = Expoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.Expoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		091E19751EF477EF00377DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = Expoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.Expoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		091E19771EF477EF00377DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = ExpojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expoji.app/Expoji";
+			};
+			name = Debug;
+		};
+		091E19781EF477EF00377DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = ExpojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expoji.app/Expoji";
+			};
+			name = Release;
+		};
+		091E197A1EF477EF00377DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = ExpojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Expoji;
+			};
+			name = Debug;
+		};
+		091E197B1EF477EF00377DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DFJ42DHHW7;
+				INFOPLIST_FILE = ExpojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Expoji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Expoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091E19711EF477EF00377DD2 /* Debug */,
+				091E19721EF477EF00377DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Expoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091E19741EF477EF00377DD2 /* Debug */,
+				091E19751EF477EF00377DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091E19771EF477EF00377DD2 /* Debug */,
+				091E19781EF477EF00377DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091E197A1EF477EF00377DD2 /* Debug */,
+				091E197B1EF477EF00377DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091E19431EF477EF00377DD2 /* Project object */;
+}
