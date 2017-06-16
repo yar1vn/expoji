@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091E194B1EF477EF00377DD2 /* Expoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E194B1EF477EF00377DD2 /* Exploji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exploji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		091E194E1EF477EF00377DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		091E19501EF477EF00377DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		091E19531EF477EF00377DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091E19551EF477EF00377DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091E19581EF477EF00377DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		091E195A1EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E195F1EF477EF00377DD2 /* ExplojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExplojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		091E19631EF477EF00377DD2 /* ExpojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpojiTests.swift; sourceTree = "<group>"; };
 		091E19651EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		091E196A1EF477EF00377DD2 /* ExplojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExplojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		091E196E1EF477EF00377DD2 /* ExpojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpojiUITests.swift; sourceTree = "<group>"; };
 		091E19701EF477EF00377DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		091E194C1EF477EF00377DD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				091E194B1EF477EF00377DD2 /* Expoji.app */,
-				091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */,
-				091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */,
+				091E194B1EF477EF00377DD2 /* Exploji.app */,
+				091E195F1EF477EF00377DD2 /* ExplojiTests.xctest */,
+				091E196A1EF477EF00377DD2 /* ExplojiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		091E194A1EF477EF00377DD2 /* Expoji */ = {
+		091E194A1EF477EF00377DD2 /* Exploji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Expoji" */;
+			buildConfigurationList = 091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Exploji" */;
 			buildPhases = (
 				091E19471EF477EF00377DD2 /* Sources */,
 				091E19481EF477EF00377DD2 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Expoji;
+			name = Exploji;
 			productName = Expoji;
-			productReference = 091E194B1EF477EF00377DD2 /* Expoji.app */;
+			productReference = 091E194B1EF477EF00377DD2 /* Exploji.app */;
 			productType = "com.apple.product-type.application";
 		};
-		091E195E1EF477EF00377DD2 /* ExpojiTests */ = {
+		091E195E1EF477EF00377DD2 /* ExplojiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiTests" */;
+			buildConfigurationList = 091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExplojiTests" */;
 			buildPhases = (
 				091E195B1EF477EF00377DD2 /* Sources */,
 				091E195C1EF477EF00377DD2 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				091E19611EF477EF00377DD2 /* PBXTargetDependency */,
 			);
-			name = ExpojiTests;
+			name = ExplojiTests;
 			productName = ExpojiTests;
-			productReference = 091E195F1EF477EF00377DD2 /* ExpojiTests.xctest */;
+			productReference = 091E195F1EF477EF00377DD2 /* ExplojiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		091E19691EF477EF00377DD2 /* ExpojiUITests */ = {
+		091E19691EF477EF00377DD2 /* ExplojiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiUITests" */;
+			buildConfigurationList = 091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExplojiUITests" */;
 			buildPhases = (
 				091E19661EF477EF00377DD2 /* Sources */,
 				091E19671EF477EF00377DD2 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				091E196C1EF477EF00377DD2 /* PBXTargetDependency */,
 			);
-			name = ExpojiUITests;
+			name = ExplojiUITests;
 			productName = ExpojiUITests;
-			productReference = 091E196A1EF477EF00377DD2 /* ExpojiUITests.xctest */;
+			productReference = 091E196A1EF477EF00377DD2 /* ExplojiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Expoji" */;
+			buildConfigurationList = 091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Exploji" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				091E194A1EF477EF00377DD2 /* Expoji */,
-				091E195E1EF477EF00377DD2 /* ExpojiTests */,
-				091E19691EF477EF00377DD2 /* ExpojiUITests */,
+				091E194A1EF477EF00377DD2 /* Exploji */,
+				091E195E1EF477EF00377DD2 /* ExplojiTests */,
+				091E19691EF477EF00377DD2 /* ExplojiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		091E19611EF477EF00377DD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 091E194A1EF477EF00377DD2 /* Expoji */;
+			target = 091E194A1EF477EF00377DD2 /* Exploji */;
 			targetProxy = 091E19601EF477EF00377DD2 /* PBXContainerItemProxy */;
 		};
 		091E196C1EF477EF00377DD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 091E194A1EF477EF00377DD2 /* Expoji */;
+			target = 091E194A1EF477EF00377DD2 /* Exploji */;
 			targetProxy = 091E196B1EF477EF00377DD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expoji.app/Expoji";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exploji.app/Exploji";
 			};
 			name = Debug;
 		};
@@ -465,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yariv.ExpojiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expoji.app/Expoji";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exploji.app/Exploji";
 			};
 			name = Release;
 		};
@@ -500,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Expoji" */ = {
+		091E19461EF477EF00377DD2 /* Build configuration list for PBXProject "Exploji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				091E19711EF477EF00377DD2 /* Debug */,
@@ -509,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Expoji" */ = {
+		091E19731EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "Exploji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				091E19741EF477EF00377DD2 /* Debug */,
@@ -517,7 +517,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiTests" */ = {
+		091E19761EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExplojiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				091E19771EF477EF00377DD2 /* Debug */,
@@ -525,7 +525,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExpojiUITests" */ = {
+		091E19791EF477EF00377DD2 /* Build configuration list for PBXNativeTarget "ExplojiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				091E197A1EF477EF00377DD2 /* Debug */,
